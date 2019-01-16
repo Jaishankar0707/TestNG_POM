@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Leaftaps">
+  <test thread-count="5" name="TDD">
+    <classes>
+    <class name="pom.qa.tests.Login_Test"/>
+    <class name="pom.qa.tests.HomePage1_Test"/>
+    <class name="pom.qa.tests.HomePage2_Test"/>
+    <class name="pom.qa.tests.Leads_Test"/>
+      <class name="pom.qa.tests.CreateLead_Test"/>
+      <class name="pom.qa.tests.Edit_Lead_Test"/>
+      <class name="pom.qa.tests.Delete_Lead_Test"/>
+    </classes>
+  </test> <!-- TDD -->
+</suite> <!-- Leaftaps -->

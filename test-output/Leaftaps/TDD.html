@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  TDD</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TDD</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 14 22:25:03 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>165 seconds (165816 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pom.qa.tests.Leads_Test.Verify_Leads_title()'><b>Verify_Leads_title</b><br>Test class: pom.qa.tests.Leads_Test</td>
+<td></td>
+<td>0</td>
+<td>pom.qa.tests.Leads_Test@1a4013</td></tr>
+<tr>
+<td title='pom.qa.tests.Login_Test.Verify_Login()'><b>Verify_Login</b><br>Test class: pom.qa.tests.Login_Test</td>
+<td></td>
+<td>1</td>
+<td>pom.qa.tests.Login_Test@31e5415e</td></tr>
+<tr>
+<td title='pom.qa.tests.CreateLead_Test.createLeads()'><b>createLeads</b><br>Test class: pom.qa.tests.CreateLead_Test<br>Parameters: Shooter, Bob, Weeger, CAD - Canadian Dollar</td>
+<td></td>
+<td>4</td>
+<td>pom.qa.tests.CreateLead_Test@1b6e1eff</td></tr>
+<tr>
+<td title='pom.qa.tests.CreateLead_Test.createLeads()'><b>createLeads</b><br>Test class: pom.qa.tests.CreateLead_Test<br>Parameters: Bosch, Sarah, Clarke, CAD - Canadian Dollar</td>
+<td></td>
+<td>3</td>
+<td>pom.qa.tests.CreateLead_Test@1b6e1eff</td></tr>
+<tr>
+<td title='pom.qa.tests.CreateLead_Test.createLeads()'><b>createLeads</b><br>Test class: pom.qa.tests.CreateLead_Test<br>Parameters: Dust, Reddick, Lance, CAD - Canadian Dollar</td>
+<td></td>
+<td>3</td>
+<td>pom.qa.tests.CreateLead_Test@1b6e1eff</td></tr>
+<tr>
+<td title='pom.qa.tests.CreateLead_Test.createLeads()'><b>createLeads</b><br>Test class: pom.qa.tests.CreateLead_Test<br>Parameters: Markuci, Jai, Shankar, CAD - Canadian Dollar</td>
+<td></td>
+<td>2</td>
+<td>pom.qa.tests.CreateLead_Test@1b6e1eff</td></tr>
+<tr>
+<td title='pom.qa.tests.Edit_Lead_Test.createLeads()'><b>createLeads</b><br>Test class: pom.qa.tests.Edit_Lead_Test<br>Parameters: Bob, Bob07</td>
+<td></td>
+<td>4</td>
+<td>pom.qa.tests.Edit_Lead_Test@306f16f3</td></tr>
+<tr>
+<td title='pom.qa.tests.Edit_Lead_Test.createLeads()'><b>createLeads</b><br>Test class: pom.qa.tests.Edit_Lead_Test<br>Parameters: Sarah, Sarah07</td>
+<td></td>
+<td>4</td>
+<td>pom.qa.tests.Edit_Lead_Test@306f16f3</td></tr>
+<tr>
+<td title='pom.qa.tests.Edit_Lead_Test.createLeads()'><b>createLeads</b><br>Test class: pom.qa.tests.Edit_Lead_Test<br>Parameters: Reddick, Reddick07</td>
+<td></td>
+<td>4</td>
+<td>pom.qa.tests.Edit_Lead_Test@306f16f3</td></tr>
+<tr>
+<td title='pom.qa.tests.Edit_Lead_Test.createLeads()'><b>createLeads</b><br>Test class: pom.qa.tests.Edit_Lead_Test<br>Parameters: Jai, Jai07</td>
+<td></td>
+<td>4</td>
+<td>pom.qa.tests.Edit_Lead_Test@306f16f3</td></tr>
+<tr>
+<td title='pom.qa.tests.Delete_Lead_Test.deleteLeads()'><b>deleteLeads</b><br>Test class: pom.qa.tests.Delete_Lead_Test<br>Parameters: Bob07</td>
+<td></td>
+<td>4</td>
+<td>pom.qa.tests.Delete_Lead_Test@702b8b12</td></tr>
+<tr>
+<td title='pom.qa.tests.Delete_Lead_Test.deleteLeads()'><b>deleteLeads</b><br>Test class: pom.qa.tests.Delete_Lead_Test<br>Parameters: Sarah07</td>
+<td></td>
+<td>4</td>
+<td>pom.qa.tests.Delete_Lead_Test@702b8b12</td></tr>
+<tr>
+<td title='pom.qa.tests.Delete_Lead_Test.deleteLeads()'><b>deleteLeads</b><br>Test class: pom.qa.tests.Delete_Lead_Test<br>Parameters: Reddick07</td>
+<td></td>
+<td>4</td>
+<td>pom.qa.tests.Delete_Lead_Test@702b8b12</td></tr>
+<tr>
+<td title='pom.qa.tests.Delete_Lead_Test.deleteLeads()'><b>deleteLeads</b><br>Test class: pom.qa.tests.Delete_Lead_Test<br>Parameters: Jai07</td>
+<td></td>
+<td>3</td>
+<td>pom.qa.tests.Delete_Lead_Test@702b8b12</td></tr>
+<tr>
+<td title='pom.qa.tests.HomePage2_Test.verifyLeadsBtn()'><b>verifyLeadsBtn</b><br>Test class: pom.qa.tests.HomePage2_Test</td>
+<td></td>
+<td>1</td>
+<td>pom.qa.tests.HomePage2_Test@1cbb87f3</td></tr>
+<tr>
+<td title='pom.qa.tests.HomePage1_Test.verify_CRM_Link()'><b>verify_CRM_Link</b><br>Test class: pom.qa.tests.HomePage1_Test</td>
+<td></td>
+<td>0</td>
+<td>pom.qa.tests.HomePage1_Test@a2431d0</td></tr>
+<tr>
+<td title='pom.qa.tests.HomePage1_Test.verify_CRM_click()'><b>verify_CRM_click</b><br>Test class: pom.qa.tests.HomePage1_Test</td>
+<td></td>
+<td>2</td>
+<td>pom.qa.tests.HomePage1_Test@a2431d0</td></tr>
+<tr>
+<td title='pom.qa.tests.HomePage1_Test.verify_Logout()'><b>verify_Logout</b><br>Test class: pom.qa.tests.HomePage1_Test</td>
+<td></td>
+<td>0</td>
+<td>pom.qa.tests.HomePage1_Test@a2431d0</td></tr>
+</table><p>
+</body>
+</html>

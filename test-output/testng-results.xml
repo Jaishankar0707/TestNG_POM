@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="30" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-01-14T16:55:03Z" name="Leaftaps" finished-at="2019-01-14T16:57:49Z" duration-ms="165816">
+    <groups>
+    </groups>
+    <test started-at="2019-01-14T16:55:03Z" name="TDD" finished-at="2019-01-14T16:57:49Z" duration-ms="165816">
+      <class name="pom.qa.tests.HomePage1_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pom.qa.tests.HomePage1_Test@a2431d0]" started-at="2019-01-14T16:55:03Z" name="beforeClass" finished-at="2019-01-14T16:55:03Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:pom.qa.tests.HomePage1_Test@a2431d0]" started-at="2019-01-14T16:55:03Z" name="BeforeMethod" finished-at="2019-01-14T16:55:11Z" duration-ms="8118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="verify_CRM_Link()[pri:0, instance:pom.qa.tests.HomePage1_Test@a2431d0]" started-at="2019-01-14T16:55:11Z" name="verify_CRM_Link" finished-at="2019-01-14T16:55:12Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CRM_Link -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.HomePage1_Test@a2431d0]" started-at="2019-01-14T16:55:12Z" name="afterMethod" finished-at="2019-01-14T16:55:12Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:pom.qa.tests.HomePage1_Test@a2431d0]" started-at="2019-01-14T16:55:12Z" name="BeforeMethod" finished-at="2019-01-14T16:55:15Z" duration-ms="3184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="verify_CRM_click()[pri:0, instance:pom.qa.tests.HomePage1_Test@a2431d0]" started-at="2019-01-14T16:55:15Z" name="verify_CRM_click" finished-at="2019-01-14T16:55:17Z" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CRM_click -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.HomePage1_Test@a2431d0]" started-at="2019-01-14T16:55:17Z" name="afterMethod" finished-at="2019-01-14T16:55:17Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:pom.qa.tests.HomePage1_Test@a2431d0]" started-at="2019-01-14T16:55:17Z" name="BeforeMethod" finished-at="2019-01-14T16:55:20Z" duration-ms="3216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="verify_Logout()[pri:0, instance:pom.qa.tests.HomePage1_Test@a2431d0]" started-at="2019-01-14T16:55:20Z" name="verify_Logout" finished-at="2019-01-14T16:55:21Z" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Logout -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.HomePage1_Test@a2431d0]" started-at="2019-01-14T16:55:21Z" name="afterMethod" finished-at="2019-01-14T16:55:21Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:pom.qa.tests.HomePage1_Test@a2431d0]" started-at="2019-01-14T16:55:21Z" name="afterClass" finished-at="2019-01-14T16:55:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.qa.tests.HomePage1_Test -->
+      <class name="pom.qa.tests.Edit_Lead_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:56:16Z" name="beforeClass" finished-at="2019-01-14T16:56:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:56:16Z" name="beforeMethod" finished-at="2019-01-14T16:56:23Z" duration-ms="6799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createLeads(java.lang.String, java.lang.String)[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:56:23Z" name="createLeads" data-provider="FetchData" finished-at="2019-01-14T16:56:27Z" duration-ms="4230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bob07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:56:27Z" name="afterMethod" finished-at="2019-01-14T16:56:27Z" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:56:27Z" name="beforeMethod" finished-at="2019-01-14T16:56:34Z" duration-ms="6780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createLeads(java.lang.String, java.lang.String)[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:56:34Z" name="createLeads" data-provider="FetchData" finished-at="2019-01-14T16:56:38Z" duration-ms="4162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sarah]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sarah07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:56:38Z" name="afterMethod" finished-at="2019-01-14T16:56:38Z" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:56:38Z" name="beforeMethod" finished-at="2019-01-14T16:56:45Z" duration-ms="6577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createLeads(java.lang.String, java.lang.String)[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:56:45Z" name="createLeads" data-provider="FetchData" finished-at="2019-01-14T16:56:49Z" duration-ms="4201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reddick]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Reddick07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:56:49Z" name="afterMethod" finished-at="2019-01-14T16:56:49Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:56:49Z" name="beforeMethod" finished-at="2019-01-14T16:56:57Z" duration-ms="7825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createLeads(java.lang.String, java.lang.String)[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:56:57Z" name="createLeads" data-provider="FetchData" finished-at="2019-01-14T16:57:01Z" duration-ms="4321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jai07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:57:01Z" name="afterMethod" finished-at="2019-01-14T16:57:01Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:57:01Z" name="afterClass" finished-at="2019-01-14T16:57:01Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.qa.tests.Edit_Lead_Test -->
+      <class name="pom.qa.tests.HomePage2_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pom.qa.tests.HomePage2_Test@1cbb87f3]" started-at="2019-01-14T16:55:21Z" name="beforeClass" finished-at="2019-01-14T16:55:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.HomePage2_Test@1cbb87f3]" started-at="2019-01-14T16:55:21Z" name="beforeMethod" finished-at="2019-01-14T16:55:25Z" duration-ms="4595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLeadsBtn()[pri:0, instance:pom.qa.tests.HomePage2_Test@1cbb87f3]" started-at="2019-01-14T16:55:25Z" name="verifyLeadsBtn" finished-at="2019-01-14T16:55:27Z" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeadsBtn -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.HomePage2_Test@1cbb87f3]" started-at="2019-01-14T16:55:27Z" name="afterMethod" finished-at="2019-01-14T16:55:27Z" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:pom.qa.tests.HomePage2_Test@1cbb87f3]" started-at="2019-01-14T16:55:27Z" name="afterClass" finished-at="2019-01-14T16:55:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.qa.tests.HomePage2_Test -->
+      <class name="pom.qa.tests.CreateLead_Test">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:55:03Z" name="beforeTest" finished-at="2019-01-14T16:55:03Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pom.qa.tests.HomePage1_Test@a2431d0]" started-at="2019-01-14T16:55:03Z" name="beforeTest" finished-at="2019-01-14T16:55:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pom.qa.tests.Edit_Lead_Test@306f16f3]" started-at="2019-01-14T16:55:03Z" name="beforeTest" finished-at="2019-01-14T16:55:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pom.qa.tests.HomePage2_Test@1cbb87f3]" started-at="2019-01-14T16:55:03Z" name="beforeTest" finished-at="2019-01-14T16:55:03Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:55:03Z" name="beforeTest" finished-at="2019-01-14T16:55:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pom.qa.tests.Leads_Test@1a4013]" started-at="2019-01-14T16:55:03Z" name="beforeTest" finished-at="2019-01-14T16:55:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pom.qa.tests.Login_Test@31e5415e]" started-at="2019-01-14T16:55:03Z" name="beforeTest" finished-at="2019-01-14T16:55:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:55:33Z" name="beforeClass" finished-at="2019-01-14T16:55:33Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:55:34Z" name="beforeMethod" finished-at="2019-01-14T16:55:41Z" duration-ms="6853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createLeads(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:55:41Z" name="createLeads" data-provider="FetchData" finished-at="2019-01-14T16:55:46Z" duration-ms="4946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shooter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bob]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Weeger]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CAD - Canadian Dollar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:55:46Z" name="afterMethod" finished-at="2019-01-14T16:55:46Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:55:46Z" name="beforeMethod" finished-at="2019-01-14T16:55:53Z" duration-ms="6738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createLeads(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:55:53Z" name="createLeads" data-provider="FetchData" finished-at="2019-01-14T16:55:56Z" duration-ms="3257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bosch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sarah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Clarke]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CAD - Canadian Dollar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:55:56Z" name="afterMethod" finished-at="2019-01-14T16:55:56Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:55:56Z" name="beforeMethod" finished-at="2019-01-14T16:56:03Z" duration-ms="6686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createLeads(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:56:03Z" name="createLeads" data-provider="FetchData" finished-at="2019-01-14T16:56:06Z" duration-ms="3167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dust]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Reddick]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CAD - Canadian Dollar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:56:06Z" name="afterMethod" finished-at="2019-01-14T16:56:06Z" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:56:06Z" name="beforeMethod" finished-at="2019-01-14T16:56:13Z" duration-ms="6732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createLeads(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:56:13Z" name="createLeads" data-provider="FetchData" finished-at="2019-01-14T16:56:16Z" duration-ms="2853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Markuci]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shankar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CAD - Canadian Dollar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:56:16Z" name="afterMethod" finished-at="2019-01-14T16:56:16Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:pom.qa.tests.CreateLead_Test@1b6e1eff]" started-at="2019-01-14T16:56:16Z" name="afterClass" finished-at="2019-01-14T16:56:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.qa.tests.CreateLead_Test -->
+      <class name="pom.qa.tests.Delete_Lead_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:01Z" name="beforeClass" finished-at="2019-01-14T16:57:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:01Z" name="beforeMethod" finished-at="2019-01-14T16:57:08Z" duration-ms="6779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteLeads(java.lang.String)[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:08Z" name="deleteLeads" data-provider="FetchData" finished-at="2019-01-14T16:57:13Z" duration-ms="4635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bob07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLeads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:13Z" name="afterMethod" finished-at="2019-01-14T16:57:13Z" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:13Z" name="beforeMethod" finished-at="2019-01-14T16:57:20Z" duration-ms="6904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteLeads(java.lang.String)[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:20Z" name="deleteLeads" data-provider="FetchData" finished-at="2019-01-14T16:57:24Z" duration-ms="4257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sarah07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLeads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:24Z" name="afterMethod" finished-at="2019-01-14T16:57:24Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:24Z" name="beforeMethod" finished-at="2019-01-14T16:57:31Z" duration-ms="6858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteLeads(java.lang.String)[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:31Z" name="deleteLeads" data-provider="FetchData" finished-at="2019-01-14T16:57:35Z" duration-ms="4245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reddick07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLeads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:35Z" name="afterMethod" finished-at="2019-01-14T16:57:35Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:35Z" name="beforeMethod" finished-at="2019-01-14T16:57:42Z" duration-ms="6507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteLeads(java.lang.String)[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:42Z" name="deleteLeads" data-provider="FetchData" finished-at="2019-01-14T16:57:46Z" duration-ms="3902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jai07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLeads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:46Z" name="afterMethod" finished-at="2019-01-14T16:57:46Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:pom.qa.tests.Delete_Lead_Test@702b8b12]" started-at="2019-01-14T16:57:46Z" name="afterClass" finished-at="2019-01-14T16:57:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.qa.tests.Delete_Lead_Test -->
+      <class name="pom.qa.tests.Leads_Test">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pom.qa.tests.Leads_Test@1a4013]" started-at="2019-01-14T16:55:27Z" name="beforeMethod" finished-at="2019-01-14T16:55:33Z" duration-ms="5816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pom.qa.tests.Leads_Test@1a4013]" started-at="2019-01-14T16:55:27Z" name="beforeClass" finished-at="2019-01-14T16:55:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Verify_Leads_title()[pri:0, instance:pom.qa.tests.Leads_Test@1a4013]" started-at="2019-01-14T16:55:33Z" name="Verify_Leads_title" finished-at="2019-01-14T16:55:33Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Leads_title -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.Leads_Test@1a4013]" started-at="2019-01-14T16:55:33Z" name="afterMethod" finished-at="2019-01-14T16:55:33Z" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:pom.qa.tests.Leads_Test@1a4013]" started-at="2019-01-14T16:55:33Z" name="afterClass" finished-at="2019-01-14T16:55:33Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.qa.tests.Leads_Test -->
+      <class name="pom.qa.tests.Login_Test">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:pom.qa.tests.Login_Test@31e5415e]" started-at="2019-01-14T16:55:03Z" name="beforeSuite" finished-at="2019-01-14T16:55:03Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pom.qa.tests.Login_Test@31e5415e]" started-at="2019-01-14T16:57:46Z" name="beforeClass" finished-at="2019-01-14T16:57:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:pom.qa.tests.Login_Test@31e5415e]" started-at="2019-01-14T16:57:46Z" name="BeforeMethod" finished-at="2019-01-14T16:57:48Z" duration-ms="2231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Verify_Login()[pri:1, instance:pom.qa.tests.Login_Test@31e5415e]" started-at="2019-01-14T16:57:48Z" name="Verify_Login" finished-at="2019-01-14T16:57:49Z" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pom.qa.tests.Login_Test@31e5415e]" started-at="2019-01-14T16:57:49Z" name="afterMethod" finished-at="2019-01-14T16:57:49Z" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:pom.qa.tests.Login_Test@31e5415e]" started-at="2019-01-14T16:57:49Z" name="afterClass" finished-at="2019-01-14T16:57:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pom.qa.tests.Login_Test@31e5415e]" started-at="2019-01-14T16:57:49Z" name="afterTest" finished-at="2019-01-14T16:57:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- pom.qa.tests.Login_Test -->
+    </test> <!-- TDD -->
+  </suite> <!-- Leaftaps -->
+</testng-results>

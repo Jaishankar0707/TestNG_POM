@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Leaftaps" class="navigator-link">
+              <span class="suite-name border-passed">Leaftaps</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Leaftaps" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Leaftaps" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Leaftaps" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Leaftaps" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Leaftaps" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Leaftaps" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Leaftaps" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Leaftaps" class="hide-methods passed suite-Leaftaps"> (hide)</a> <!-- hide-methods passed suite-Leaftaps -->
+                      <a href="#" panel-name="suite-Leaftaps" class="show-methods passed suite-Leaftaps"> (show)</a> <!-- show-methods passed suite-Leaftaps -->
+                    </span>
+                    <div class="method-list-content passed suite-Leaftaps">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.Leads_Test" class="method navigator-link" hash-for-method="Verify_Leads_title">Verify_Leads_title</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.Login_Test" class="method navigator-link" hash-for-method="Verify_Login">Verify_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.CreateLead_Test" class="method navigator-link" hash-for-method="createLeads(Shooter, Bob, Weeger, CAD - Canadian Dollar)">createLeads(Shooter, Bob, Weeger, CAD - Canadian Dollar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.Edit_Lead_Test" class="method navigator-link" hash-for-method="createLeads(Bob, Bob07)">createLeads(Bob, Bob07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.CreateLead_Test" class="method navigator-link" hash-for-method="createLeads(Dust, Reddick, Lance, CAD - Canadian Dollar)">createLeads(Dust, Reddick, Lance, CAD - Canadian Dollar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.CreateLead_Test" class="method navigator-link" hash-for-method="createLeads(Markuci, Jai, Shankar, CAD - Canadian Dollar)">createLeads(Markuci, Jai, Shankar, CAD - Canadian Dollar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.Edit_Lead_Test" class="method navigator-link" hash-for-method="createLeads(Reddick, Reddick07)">createLeads(Reddick, Reddick07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.CreateLead_Test" class="method navigator-link" hash-for-method="createLeads(Bosch, Sarah, Clarke, CAD - Canadian Dollar)">createLeads(Bosch, Sarah, Clarke, CAD - Canadian Dollar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.Edit_Lead_Test" class="method navigator-link" hash-for-method="createLeads(Sarah, Sarah07)">createLeads(Sarah, Sarah07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.Edit_Lead_Test" class="method navigator-link" hash-for-method="createLeads(Jai, Jai07)">createLeads(Jai, Jai07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.Delete_Lead_Test" class="method navigator-link" hash-for-method="deleteLeads(Jai07)">deleteLeads(Jai07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.Delete_Lead_Test" class="method navigator-link" hash-for-method="deleteLeads(Sarah07)">deleteLeads(Sarah07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.Delete_Lead_Test" class="method navigator-link" hash-for-method="deleteLeads(Bob07)">deleteLeads(Bob07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.Delete_Lead_Test" class="method navigator-link" hash-for-method="deleteLeads(Reddick07)">deleteLeads(Reddick07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.HomePage2_Test" class="method navigator-link" hash-for-method="verifyLeadsBtn">verifyLeadsBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.HomePage1_Test" class="method navigator-link" hash-for-method="verify_CRM_Link">verify_CRM_Link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.HomePage1_Test" class="method navigator-link" hash-for-method="verify_CRM_click">verify_CRM_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Leaftaps" title="pom.qa.tests.HomePage1_Test" class="method navigator-link" hash-for-method="verify_Logout">verify_Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Leaftaps -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Leaftaps" class="panel Leaftaps">
+          <div class="suite-Leaftaps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.qa.tests.Delete_Lead_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLeads(Jai07)">
+                  </a> <!-- deleteLeads(Jai07) -->
+                  <span class="method-name">deleteLeads</span>
+                  <span class="parameters">(Jai07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLeads(Sarah07)">
+                  </a> <!-- deleteLeads(Sarah07) -->
+                  <span class="method-name">deleteLeads</span>
+                  <span class="parameters">(Sarah07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLeads(Bob07)">
+                  </a> <!-- deleteLeads(Bob07) -->
+                  <span class="method-name">deleteLeads</span>
+                  <span class="parameters">(Bob07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLeads(Reddick07)">
+                  </a> <!-- deleteLeads(Reddick07) -->
+                  <span class="method-name">deleteLeads</span>
+                  <span class="parameters">(Reddick07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Leaftaps-class-passed -->
+          <div class="suite-Leaftaps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.qa.tests.HomePage1_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_CRM_Link">
+                  </a> <!-- verify_CRM_Link -->
+                  <span class="method-name">verify_CRM_Link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_CRM_click">
+                  </a> <!-- verify_CRM_click -->
+                  <span class="method-name">verify_CRM_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Logout">
+                  </a> <!-- verify_Logout -->
+                  <span class="method-name">verify_Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Leaftaps-class-passed -->
+          <div class="suite-Leaftaps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.qa.tests.CreateLead_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeads(Shooter, Bob, Weeger, CAD - Canadian Dollar)">
+                  </a> <!-- createLeads(Shooter, Bob, Weeger, CAD - Canadian Dollar) -->
+                  <span class="method-name">createLeads</span>
+                  <span class="parameters">(Shooter, Bob, Weeger, CAD - Canadian Dollar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeads(Dust, Reddick, Lance, CAD - Canadian Dollar)">
+                  </a> <!-- createLeads(Dust, Reddick, Lance, CAD - Canadian Dollar) -->
+                  <span class="method-name">createLeads</span>
+                  <span class="parameters">(Dust, Reddick, Lance, CAD - Canadian Dollar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeads(Markuci, Jai, Shankar, CAD - Canadian Dollar)">
+                  </a> <!-- createLeads(Markuci, Jai, Shankar, CAD - Canadian Dollar) -->
+                  <span class="method-name">createLeads</span>
+                  <span class="parameters">(Markuci, Jai, Shankar, CAD - Canadian Dollar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeads(Bosch, Sarah, Clarke, CAD - Canadian Dollar)">
+                  </a> <!-- createLeads(Bosch, Sarah, Clarke, CAD - Canadian Dollar) -->
+                  <span class="method-name">createLeads</span>
+                  <span class="parameters">(Bosch, Sarah, Clarke, CAD - Canadian Dollar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Leaftaps-class-passed -->
+          <div class="suite-Leaftaps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.qa.tests.Leads_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Leads_title">
+                  </a> <!-- Verify_Leads_title -->
+                  <span class="method-name">Verify_Leads_title</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Leaftaps-class-passed -->
+          <div class="suite-Leaftaps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.qa.tests.Login_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Login">
+                  </a> <!-- Verify_Login -->
+                  <span class="method-name">Verify_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Leaftaps-class-passed -->
+          <div class="suite-Leaftaps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.qa.tests.Edit_Lead_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeads(Bob, Bob07)">
+                  </a> <!-- createLeads(Bob, Bob07) -->
+                  <span class="method-name">createLeads</span>
+                  <span class="parameters">(Bob, Bob07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeads(Reddick, Reddick07)">
+                  </a> <!-- createLeads(Reddick, Reddick07) -->
+                  <span class="method-name">createLeads</span>
+                  <span class="parameters">(Reddick, Reddick07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeads(Sarah, Sarah07)">
+                  </a> <!-- createLeads(Sarah, Sarah07) -->
+                  <span class="method-name">createLeads</span>
+                  <span class="parameters">(Sarah, Sarah07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeads(Jai, Jai07)">
+                  </a> <!-- createLeads(Jai, Jai07) -->
+                  <span class="method-name">createLeads</span>
+                  <span class="parameters">(Jai, Jai07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Leaftaps-class-passed -->
+          <div class="suite-Leaftaps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.qa.tests.HomePage2_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeadsBtn">
+                  </a> <!-- verifyLeadsBtn -->
+                  <span class="method-name">verifyLeadsBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Leaftaps-class-passed -->
+        </div> <!-- panel Leaftaps -->
+        <div panel-name="test-xml-Leaftaps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/Jai/Documents/TestLeaf/eclipse-workspace/Learn_TestNG_POM/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Leaftaps&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TDD&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pom.qa.tests.Login_Test&quot;/&gt;
+      &lt;class name=&quot;pom.qa.tests.HomePage1_Test&quot;/&gt;
+      &lt;class name=&quot;pom.qa.tests.HomePage2_Test&quot;/&gt;
+      &lt;class name=&quot;pom.qa.tests.Leads_Test&quot;/&gt;
+      &lt;class name=&quot;pom.qa.tests.CreateLead_Test&quot;/&gt;
+      &lt;class name=&quot;pom.qa.tests.Edit_Lead_Test&quot;/&gt;
+      &lt;class name=&quot;pom.qa.tests.Delete_Lead_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TDD --&gt;
+&lt;/suite&gt; &lt;!-- Leaftaps --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Leaftaps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Leaftaps</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TDD (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Leaftaps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Leaftaps</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Leaftaps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Leaftaps</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Leaftaps');
+function tableData_Leaftaps() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createLeads')
+data.setCell(0, 2, 'pom.qa.tests.CreateLead_Test')
+data.setCell(0, 3, 4946);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'deleteLeads')
+data.setCell(1, 2, 'pom.qa.tests.Delete_Lead_Test')
+data.setCell(1, 3, 4635);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createLeads')
+data.setCell(2, 2, 'pom.qa.tests.Edit_Lead_Test')
+data.setCell(2, 3, 4321);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'deleteLeads')
+data.setCell(3, 2, 'pom.qa.tests.Delete_Lead_Test')
+data.setCell(3, 3, 4257);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deleteLeads')
+data.setCell(4, 2, 'pom.qa.tests.Delete_Lead_Test')
+data.setCell(4, 3, 4245);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createLeads')
+data.setCell(5, 2, 'pom.qa.tests.Edit_Lead_Test')
+data.setCell(5, 3, 4230);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createLeads')
+data.setCell(6, 2, 'pom.qa.tests.Edit_Lead_Test')
+data.setCell(6, 3, 4201);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createLeads')
+data.setCell(7, 2, 'pom.qa.tests.Edit_Lead_Test')
+data.setCell(7, 3, 4162);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'deleteLeads')
+data.setCell(8, 2, 'pom.qa.tests.Delete_Lead_Test')
+data.setCell(8, 3, 3902);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createLeads')
+data.setCell(9, 2, 'pom.qa.tests.CreateLead_Test')
+data.setCell(9, 3, 3257);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createLeads')
+data.setCell(10, 2, 'pom.qa.tests.CreateLead_Test')
+data.setCell(10, 3, 3167);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createLeads')
+data.setCell(11, 2, 'pom.qa.tests.CreateLead_Test')
+data.setCell(11, 3, 2853);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verify_CRM_click')
+data.setCell(12, 2, 'pom.qa.tests.HomePage1_Test')
+data.setCell(12, 3, 2348);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyLeadsBtn')
+data.setCell(13, 2, 'pom.qa.tests.HomePage2_Test')
+data.setCell(13, 3, 1215);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Verify_Login')
+data.setCell(14, 2, 'pom.qa.tests.Login_Test')
+data.setCell(14, 3, 1105);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verify_Logout')
+data.setCell(15, 2, 'pom.qa.tests.HomePage1_Test')
+data.setCell(15, 3, 206);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Verify_Leads_title')
+data.setCell(16, 2, 'pom.qa.tests.Leads_Test')
+data.setCell(16, 3, 62);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verify_CRM_Link')
+data.setCell(17, 2, 'pom.qa.tests.HomePage1_Test')
+data.setCell(17, 3, 46);
+window.suiteTableData['Leaftaps']= { tableData: data, tableDiv: 'times-div-Leaftaps'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <div id="times-div-Leaftaps">
+              </div> <!-- times-div-Leaftaps -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Leaftaps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Leaftaps</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Leaftaps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.qa.tests.Delete_Lead_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.qa.tests.HomePage1_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.qa.tests.CreateLead_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.qa.tests.Leads_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.qa.tests.HomePage2_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.qa.tests.Edit_Lead_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Leaftaps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.Login_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.CreateLead_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.Delete_Lead_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.Edit_Lead_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.HomePage1_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.HomePage2_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.Leads_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.Login_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.HomePage1_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_CRM_Link</span>
+                <span class="method-start">8159 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">8206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">8295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_CRM_click</span>
+                <span class="method-start">11479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">13829 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">13938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_Logout</span>
+                <span class="method-start">17154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">17361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">17448 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.HomePage2_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">17450 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">17451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeadsBtn</span>
+                <span class="method-start">22046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">23263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">23443 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.Leads_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">23443 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">23443 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify_Leads_title</span>
+                <span class="method-start">29259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">29322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">29445 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.CreateLead_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">29445 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">30603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLeads(Shooter, Bob, Weeger, CAD - Canadian Dollar)</span>
+                <span class="method-start">37456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">42405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">42519 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLeads(Bosch, Sarah, Clarke, CAD - Canadian Dollar)</span>
+                <span class="method-start">49257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">52516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">52650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLeads(Dust, Reddick, Lance, CAD - Canadian Dollar)</span>
+                <span class="method-start">59336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">62504 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">62630 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLeads(Markuci, Jai, Shankar, CAD - Canadian Dollar)</span>
+                <span class="method-start">69362 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">72217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">72345 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.Edit_Lead_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">72345 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">72426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLeads(Bob, Bob07)</span>
+                <span class="method-start">79225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">83456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">83586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLeads(Sarah, Sarah07)</span>
+                <span class="method-start">90366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">94529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">94665 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLeads(Reddick, Reddick07)</span>
+                <span class="method-start">101242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">105445 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">105591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLeads(Jai, Jai07)</span>
+                <span class="method-start">113416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">117738 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">117850 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.Delete_Lead_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">117851 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">117908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteLeads(Bob07)</span>
+                <span class="method-start">124687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">129322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">129429 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteLeads(Sarah07)</span>
+                <span class="method-start">136333 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">140591 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">140701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteLeads(Reddick07)</span>
+                <span class="method-start">147559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">151805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">151909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteLeads(Jai07)</span>
+                <span class="method-start">158416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">162318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">162416 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.qa.tests.Login_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">162416 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">162417 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify_Login</span>
+                <span class="method-start">164648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">165753 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">165832 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">165833 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
