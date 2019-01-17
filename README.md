@@ -1,6 +1,6 @@
-# TestNG_POM
-Data driven framework with TestNG and POM
+# TestNG_POM - Data driven framework with TestNG and POM
 Github Configuration and operation steps:
+
 To Push a code:
 1) Move to project directory in the terminal - [Copy the project directory path from the properties(right click on project) of the project and hit "CD <project directory path>" on the terminal.]
 2) Git init - [in the terminal]/[Initializes git]
@@ -18,3 +18,5 @@ Creating and adding SSH key to Github (For Mac):
 4) Re-enter laptop password.
 5) pbcopy < ~/.ssh/id_rsa.pub - [in the terminal]
 6) paste it on a note pad
+
+
