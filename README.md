@@ -43,6 +43,6 @@ Right click on the (project) to be pushed -> Choose 'Team' -> Choose 'Commit' ->
 3) Click "Commit", to commit the files/ Click "Commit and Psuh", to commit and push the files.
 
 [Pushing the code]
-Right click on the (project) to be pushed -> Choose 'Push' -> Provide [Remote Name: Origin]/ [URL:(project path, ex:https://github.com/Jaishankar0707/(name of the repository))]
+Right click on the (project) to be pushed -> Choose 'Push' -> Provide [Remote Name: Origin]/ [URL:(project path, ex:https://github.com/Jaishankar0707/(name of the repository))].
  
 
